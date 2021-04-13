@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p,a,ul,li,ol {
+	margin: 0;
+	padding: 0;
+}
+ul,li,ol {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+/*Header CSS Starts*/
+
+.header {
+	height: 950px;
+	width: 100%;
+	background: url(../img/bannr.jpg) no-repeat;
+	background-position: center;
+	position: relative;
+}
+.header .b_logo {
+	padding-top: 55px;
+	padding-bottom: 353px;
+}
+.iphn {
+	position: absolute;
+	top: 28%;
+	right: 5%;
+}
+.header h1 {
+	font-size: 60px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	padding-bottom: 22px;
+}
+.header p {
+	font-size: 13px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+/*Header CSS Ends*/
+
+/*About us CSS Starts*/
+.about {
+	padding: 114px 0px 0px 0px;
+}
+.about h2 {
+	font-size: 35px;
+	color: #222626;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	padding-bottom: 39px;
+
+}
+.about p {
+	font-size: 14px;
+	color: #b5b5b5;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 36px;
+}
+.abt_con {
+	padding-top: 155px;
+}
+.abt_img {
+	position: relative;
+}
+.abt_box {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.abt_box h2 {
+	font-size: 30px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	padding: 0;
+	padding-top: 52px;
+	margin-left: 44px;
+}
+.abt_box p {
+	font-size: 13px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	padding: 25px 0px 40px 0px;
+	margin-left: 44px;
+}
+.abt_img span {
+	font-size: 14px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	margin-left: 44px;
+}
+.abt_img i {
+	margin-left: 15px;
+}
+.about h3 {
+	font-size: 35px;
+	color: #222626;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	padding: 97px 0px 70px 0px;
+}
+.last_con span {
+	font-size: 13px;
+	color: #222626;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+.last_con .last_p {
+	font-size: 14px;
+	color:#b5b5b5;
+	font-family: 'Open Sans', sans-serif;
+	padding: 30px 0px 160px 0px;
+}
+
+/*About us CSS Ends*/
+
+/*More CSS Starts*/
+.more {
+	height: 873px;
+	width: 100%;
+	background: url(../img/car.jpg) no-repeat;
+	position: relative;
+
+}
+
+.more h2 {
+	font-size: 60px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+.more p {
+	font-size: 13px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	padding: 44px 0px 28px 0px;
+}
+.more span {
+	font-size: 14px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+.more i {
+	margin-left: 15px;
+}
+.m_con {
+	position: absolute;
+	bottom: 12%;
+	left: 15%;
+}
+
+
+
+
+/*More CSS Ends*/
+/*Reason CSS starts*/
+
+.reason {
+	background: #82ca9c;
+	padding-bottom: 170px;
+}
+
+.reason h3 {
+	font-size: 35px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	padding: 125px 0px 60px 0px;
+}
+.r_con span {
+	font-size: 13px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+.r_con p {
+	font-size: 14px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 30px;
+}	
+
+/*Reason CSS Ends*/
+
+/*Product CSS Starts*/
+.product {
+	padding: 53px 0px 88px 0px;
+	background: #ecedf0;
+}
+
+.pro_item {
+	margin-left: 57px;
+	padding-top: 50px;
+}
+.legecy {
+	color: #fff;
+	padding: 8px 17px;
+	background: #e1e1e1;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 11px;
+}
+.pro_item h2 {
+	font-size: 30px;
+	color: #2e3b4e;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	padding: 31px 0px 26px 0px;
+}
+.pro_item p {
+	font-size: 14px;
+	color: #94a6b3;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 48px;
+}	
+.pro_btn {
+	color: #fff;
+	padding: 18px 30px;
+	background: #82ca9c;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700; 
+}
+.icon {
+	padding-top: 37px;
+	padding-bottom: 56px;
+}
+.icon i {
+	color: #c5c5c5;
+	font-size: 23px;
+}
+.mar {
+	margin-left: 12px;
+}
+.pro_border {
+	height: 380px;
+	width: 573px;
+	background: #fff;
+}
+.legecy_b {
+	color: #fff;
+	padding: 8px 17px;
+	background: #bd8cbf;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 11px;
+}
+
+
+
+/*Product CSS Ends*/
+
+/*Footer CSS Ends*/
+.footer {
+	background: #192431;
+	padding: 130px 0px 155px 0px;
+}
+.f_con {
+	padding-bottom: 31px;
+}
+.footer span {
+	color: #f6f7fa;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	display: block;
+	padding-bottom: 30px;
+}	
+.footer p {
+	color: #f6f7fa;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+}	
+.f_form {
+	height: 58px;
+	width: 400px;
+	border:none;
+}
+.f_con i {
+	background: #82ca9c;
+	padding: 18px 20px;
+	font-weight: 300;
+	font-size: 22px;
+}
+.form {
+	position: relative;
+	padding-bottom: 20px;
+}
+.f_box {
+	position: absolute;
+	top: 50px;
+	right: 93px;
+}
+.f_con h6{
+	font-size: 12px;
+	color: #495a6e;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*Responsive CSS Starts*/
+
+
+
+
+/*// Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { 
+	.hide {
+		display: none;
+	}
+	.abt_box h2 {
+		padding-top: 20px;
+	}
+	.abt_box p {
+		padding: 5px 0px 15px 0px;
+	}
+	.f_form {
+		width: 372px;
+	}
+	.f_box {
+		top: 49px;
+	}
+
+ }
+
+
+/*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+	.header .b_logo {
+   	 	padding-bottom: 150px;
+	}
+
+	.abt_box h2 {
+    	font-size: 20px;
+    	padding-top: 9px;
+    	margin-left: 22px;
+
+	}
+	.abt_box p {
+    	font-size: 12px;
+   		padding: 9px 0px 0px 0px;
+    	margin-left: 25px;
+	}.abt_img span {
+    	font-size: 13px;
+    	margin-left: 25px;
+	}
+	.hide {
+		display: none;
+	}
+	.about p {
+    	font-size: 12px;
+    	/*padding-bottom: 16px;*/
+    }
+    .about h2 {
+    	font-size: 24px;
+    }	
+    .about h3 {
+    	font-size: 24px;
+    	padding: 50px 0px 40px 0px;
+    }	
+    .last_con .last_p {
+    	font-size: 12px;
+    	padding: 15px 0px 60px 0px;
+    }	
+    .more {
+   		height: 599px;
+   	}	
+   	.more h2 {
+    	font-size: 32px;
+    }
+    .m_con {
+    	bottom: 16%;
+    }	
+    .reason h3 {
+    	font-size: 24px;
+   		padding: 30px 0px 20px 0px;
+	}	
+	.r_con p {
+    	font-size: 12px;
+    	padding-top: 20px;
+	}
+	.reason {
+		padding-bottom: 50px;
+	}
+	.pro_item {
+    	margin-left: 20px;
+    	padding-top: 25px;
+	}
+	.pro_border {
+		height: 340px;
+    	width: 338px;
+    }	
+    .pro_item h2 {
+    	font-size: 22px;
+   		padding: 18px 0px 10px 0px;
+	}
+	.pro_item p {
+		font-size: 13px;
+	}
+	.footer {
+		padding: 50px 0px 10px 0px;
+	}
+	.footer span {
+		font-size: 12px;
+   	 	padding-bottom: 15px;
+	}
+	.footer p {
+		font-size: 12px;
+	}
+	.f_form {
+    	width: 290px;
+	}
+	.f_box {
+		top: 33px;
+		right: 55px;
+	}
+	.hide {
+		display: none;
+	}
+	.f_last_c a {
+		font-size: 12px;
+	}
+
+
+
+
+ }
+
+/*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+	.iphn {
+    	top: 24%;
+    	right: -7%;
+	}
+	.header h1 {
+    	font-size: 36px;	
+    }	
+    .header p {
+    	font-size: 10px;
+	}
+	.abt_con {
+    	padding-top: 20px;
+	}
+	/*.abt_img {
+    	height: 200px;
+	}*/
+	.abt_box {
+    	top: 50px;
+    	left: 38px;
+    	text-align: center;
+	}
+	.abt_box {
+    	top: 35px;
+    }	
+    .last_con .last_p {
+   	 	padding: 10px 0px 15px 0px;
+	}
+	.about h3 {
+    	padding: 50px 0px 20px 0px;
+	}
+	.r_con p {
+    	padding-top: 5px;
+    	padding-bottom: 20px;
+	}
+	.pro_item {
+		text-align: center;
+	}
+	.pro_border {
+    	width: 524px;
+	}
+	.f_form {
+    	width: 408px;
+	}
+
+
+ }
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { ... }
+
+
+/*// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width*/
+
+
+
+
+
+
+
+
+
+/*Footer CSS Ends*/
